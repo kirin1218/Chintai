@@ -8,6 +8,7 @@ import pandas as pd
 from pandas import Series, DataFrame
 import time
 import os, sys
+from fudosan_detail import get_fudosan_detail
 
 class RoomInfo:
     def __init__(self):
